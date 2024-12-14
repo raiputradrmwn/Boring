@@ -1,10 +1,10 @@
 {
   "expo": {
-    "name": "boring",
+    "name": "Boring",
     "slug": "boring",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/Boring.png",
+    "icon": "./assets/boring.png",
     "userInterfaceStyle": "light",
     "newArchEnabled": true,
     "splash": {
@@ -17,9 +17,10 @@
     },
     "android": {
       "adaptiveIcon": {
-        "foregroundImage": "./assets/adaptive-icon.png",
+        "foregroundImage": "./assets/boring.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.anonymous.boring"
     },
     "web": {
       "favicon": "./assets/favicon.png",
@@ -29,10 +30,17 @@
       [
         "expo-asset",
         {
-          "assets": ["./assets/logo.png", "./assets"]
-          
+          "assets": [
+            "./assets/logo.png",
+            "./assets"
+          ]
         }
       ]
-    ]
+    ],
+    "extra": {
+      "eas": {
+        "projectId": "2436a550-cff0-4ea4-82a2-068329aaadff"
+      }
+    }
   }
 }

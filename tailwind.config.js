@@ -7,7 +7,14 @@ module.exports = {
   ],
   presets: [require("nativewind/preset")],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        golibold: "Goli-Bold", // Nama font harus sesuai dengan `useFonts`
+        goliregular: "Goli-Regular",
+        golimedium: "Goli-Medium",
+        golilight: "Goli-Light",
+      },
+    },
   },
   plugins: [],
 }
